@@ -5,3 +5,6 @@ url: "https://blog.3wfx.de"
 github_username: greenacid
 
 markdown: kramdown
+
+exclude:
+  - AGENTS.md
