@@ -1,25 +1,25 @@
 ---
 layout: post
-title: "Hallo Welt! Mein erster Blogpost mit ChatGPT und Codex"
-description: "Ein Selbstversuch mit ChatGPT, Codex, Jekyll und GitHub Pages."
+title: "Hello, World! My First Blog Post with ChatGPT and Codex"
+description: "A personal experiment with ChatGPT, Codex, Jekyll, and GitHub Pages."
 ---
 
-Hallo Welt! Mit diesem Beitrag will ich ausprobieren, wie sich Bloggen mit meiner neuen Toolchain anfühlt. Kann ich ChatGPT einfach erzählen, worüber ich schreiben möchte, und kurz darauf einen Blogpost lesen, der schon im richtigen Format in meinem Repository liegt? Genau das teste ich hier.
+Hello, world! With this post, I want to see what blogging feels like with my new toolchain. Can I just tell ChatGPT what I want to write about and, a little later, read a draft that's already in the right format in my repository? That's what I'm testing here.
 
-## Was unter der Haube steckt
+## What's under the hood
 
-Die Inhalte liegen als Markdown-Dateien in meinem GitHub-Repository `greenacid/greenacid.github.io`. Jekyll baut daraus eine statische Website. Titel und Layout stehen oben in der Datei, und Jekyll setzt den Text in die Vorlage ein. Beim selben Build entstehen auch die Startseite mit der Beitragsliste und der RSS-Feed.
+The content lives in Markdown files in my GitHub repository, `greenacid/greenacid.github.io`. Jekyll turns those files into a static website. The title and layout are set at the top of each file, and Jekyll inserts the text into the template. The same build generates the homepage with its list of posts and the RSS feed.
 
-GitHub Pages ist so eingerichtet, dass es die Website aus dem `master`-Branch baut und veröffentlicht. Die eigene Domain `blog.3wfx.de` ist über die `CNAME`-Datei hinterlegt. In der Jekyll-Konfiguration steht die HTTPS-Adresse des Blogs, damit Seiten und Feed auf dieselbe Domain verweisen. GitHub Pages leitet HTTP-Aufrufe auf HTTPS um.
+GitHub Pages builds and publishes the site from the `master` branch. The `CNAME` file sets the custom domain, `blog.3wfx.de`. The Jekyll configuration uses the blog's HTTPS address so the pages and the feed point to the same domain. GitHub Pages redirects HTTP requests to HTTPS.
 
-## Wie aus einer Idee ein Beitrag wird
+## How an idea becomes a post
 
-Ich fange mit einer Idee an und erkläre sie ChatGPT, dem Sprachmodell-basierten Assistenten von OpenAI. Ich sage, worum es gehen soll, welche Details reinmüssen und wie der Text klingen soll. Daraus entsteht ein Entwurf. Codex übernimmt die Arbeit am Repository und legt den Text als Markdown-Datei an. Ich kann ihn in Ruhe lesen und Änderungen anstoßen, bevor er veröffentlicht wird.
+I start with an idea and explain it to ChatGPT, OpenAI's AI assistant. I tell it what the post should cover, which details to include, and how I want it to sound. That gives me a draft. Codex handles the repository work and saves the text as a Markdown file. I can take my time reading it and ask for changes before it goes live.
 
-An dieser Stelle bin ich gerade mit diesem Hallo-Welt-Post. Sobald ich mit dem Text zufrieden bin, kann der Entwurf in den Beitragsordner `_posts` wandern. Wenn die Änderung in `master` landet, baut GitHub Pages die Website neu. Danach ist der Beitrag auf dem Blog und im RSS-Feed zu finden.
+That's the process I used for this Hello World post. Once I'm happy with a draft, it can move into the `_posts` directory. When the change lands on `master`, GitHub Pages rebuilds the site. The post then appears on the blog and in the RSS feed.
 
-## Was sich beim Schreiben verändert
+## What's changed about writing
 
-Für mich ist das Schreiben damit unglaublich einfach geworden. Ich kann meine Gedanken so erzählen, wie sie mir gerade einfallen. Ich muss sie weder abtippen noch beim Erzählen schon am Satzbau feilen. ChatGPT bringt die Gedanken in eine lesbare Reihenfolge, und ich entscheide beim Gegenlesen, ob der Text sagt, was ich sagen wollte.
+Writing has become incredibly easy for me this way. I can talk through my thoughts as they come to me. I don't have to type them out or work on sentence structure while I'm still explaining the idea. ChatGPT puts those thoughts in an order that's easy to follow, and when I read the draft, I decide whether it says what I meant.
 
-Ob daraus regelmäßig gute Beiträge werden, muss sich noch zeigen. Aber die Hürde, eine Idee überhaupt als Blogpost festzuhalten, ist für mich deutlich kleiner geworden. Für einen Hallo-Welt-Post ist das schon mal ein guter Anfang.
+It remains to be seen whether I'll turn this into a habit and publish good posts regularly. But it's already much easier to turn an idea into a post. For a Hello World post, that's a good start.

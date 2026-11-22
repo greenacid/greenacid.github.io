@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Über mich
+title: About Me
 permalink: /about/
 ---
 
-Beruflich bin ich als Enterprise AI Platform Manager tätig. In dieser Rolle beschäftige ich mich damit, wie Unternehmen KI-Plattformen bereitstellen und im Alltag nutzen können.
+I work as an Enterprise AI Platform Manager. My role focuses on how organizations can make AI platforms available and use them in their day-to-day work.
 
-Privat betreibe ich diesen Blog als Ort für Experimente. Hier probiere ich aus, wie sich KI, Automatisierung und digitale Werkzeuge für eigene Ideen einsetzen lassen. Ich schreibe darüber, was dabei funktioniert und was ich beim nächsten Mal anders machen würde.
+I run this blog as a place to experiment in my spare time. Here I try out ways to use AI, automation, and digital tools to put my own ideas into practice. I write about what works and what I would do differently next time.
